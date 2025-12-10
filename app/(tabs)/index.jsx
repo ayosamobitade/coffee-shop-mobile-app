@@ -1,6 +1,6 @@
 import { Link } from 'expo-router'
 import { ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native'
-import coffeeup from '../assets/images/coffeeup.jpg'
+import coffeeup from '../../assets/images/coffeeup.jpg'
 
 
 const app = () => {
@@ -12,9 +12,9 @@ const app = () => {
         <Text style={styles.subTitle}>Welcome To Samworld Coffee!</Text>
         </View>
 
-        <Link style={{marginHorizontal: 'auto'}} asChild href="/explore">
+        <Link style={{marginHorizontal: 'auto'}} asChild href="/contact">
         <Pressable style={styles.button}>
-       <Text style={styles.buttonText}>Explore</Text>
+       <Text style={styles.buttonText}>Contact Us</Text>
         </Pressable>
         </Link>
       </ImageBackground>
@@ -74,6 +74,7 @@ button: {
   borderRadius: 20,
   backgroundColor: 'rgba(0, 0, 0, 0.75)',
   padding: 6,
+  justifyContent: 'center',
 },
 buttonText : {
   color: 'white',
