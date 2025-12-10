@@ -1,6 +1,6 @@
 import { Link } from 'expo-router'
 import { ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native'
-import coffeeup from '../../assets/images/coffeeup.jpg'
+import coffeeup from '../assets/images/coffeeup.jpg'
 
 
 const app = () => {
@@ -8,7 +8,7 @@ const app = () => {
     <View style={styles.container}>
        <ImageBackground source={coffeeup} resizeMode="cover" style={styles.image}>
         <View style={styles.businessNameContainer}>
-        <Text style={styles.title}>Coffee Shop</Text>
+        <Text style={styles.title}>Samworld Coffee</Text>
         <Text style={styles.subTitle}>Welcome To Samworld Coffee!</Text>
         </View>
 

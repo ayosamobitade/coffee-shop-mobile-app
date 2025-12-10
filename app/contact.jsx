@@ -8,7 +8,7 @@ export default function ContactScreen() {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.header}>SamWorld Coffee</Text>
+      <Text style={styles.header}>Samworld Coffee</Text>
       <Text style={styles.subheader}>We’d love to hear from you!</Text>
 
       <View style={styles.section}>
@@ -18,7 +18,7 @@ export default function ContactScreen() {
 
       <View style={styles.section}>
         <Text style={styles.title}>Phone</Text>
-        <Text style={styles.text}>+234 806 270 6237</Text>
+        <Text style={styles.text}>+234 806 270 6239</Text>
       </View>
 
       <View style={styles.section}>
